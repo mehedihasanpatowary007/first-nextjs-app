@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       >
         <div className="flex flex-col justify-between">
           <Navbar />
-         <main className="min-h-screen place-content-center place-items-center"> {children}</main>
+         <main className="min-h-screen"> {children}</main>
           <Footer />
         </div>
       </body>
