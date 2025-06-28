@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import React from "react";
 
 function Navbar() {
-  const pathname = usePathname();console.log(pathname.includes("dashboard"));
+  const pathname = usePathname();
   if (!pathname.includes("dashboard")) {
     return (
       <nav className="bg-red-400 py-3">
