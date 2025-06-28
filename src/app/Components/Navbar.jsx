@@ -9,6 +9,9 @@ function Navbar() {
           <Link href={"/"}>Home</Link>
         </li>
         <li>
+          <Link href={"/services"}>Services</Link>
+        </li>
+        <li>
           <Link href={"/about"}>About</Link>
         </li>
         <li>
