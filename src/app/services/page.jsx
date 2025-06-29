@@ -60,7 +60,7 @@ function ServicesPage() {
         {serviceData.map((d) => {
           const Icon = d.icon;
           return (
-            <Link title={d.title} href={`/services/${d.id}`}>
+            <Link key={d.id} title={d.title} href={`/services/${d.id}`}>
               <div className="max-w-md mx-auto bg-[#F1F5F9] p-6 rounded-2xl shadow-md hover:shadow-lg transition">
                 <div className="flex items-center justify-center">
                   <Icon className="text-green-500 w-10 h-10" />
