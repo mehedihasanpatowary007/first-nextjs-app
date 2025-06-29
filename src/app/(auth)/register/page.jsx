@@ -7,3 +7,9 @@ function RegisterPage() {
 }
 
 export default RegisterPage
+export function generateMetadata(){
+return {
+  title:"Registration",
+  description:"This is Registration page."
+}
+}

@@ -7,3 +7,9 @@ function ContactPage() {
 }
 
 export default ContactPage
+export function generateMetadata(){
+return {
+  title:"Contact",
+  description:"This is contact section."
+}
+}

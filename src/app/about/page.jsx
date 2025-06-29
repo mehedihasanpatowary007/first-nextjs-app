@@ -7,3 +7,10 @@ function AboutPage() {
 }
 
 export default AboutPage
+
+export function generateMetadata(){
+return {
+  title:"About",
+  description:"This is about section."
+}
+}

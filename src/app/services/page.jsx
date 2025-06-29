@@ -75,3 +75,10 @@ function ServicesPage() {
 }
 
 export default ServicesPage;
+
+export function generateMetadata(){
+return {
+  title:"Service",
+  description:"This is service section."
+}
+}
